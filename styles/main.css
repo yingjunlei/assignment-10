@@ -1,0 +1,61 @@
+body {
+  background:#ffb6c1;
+  margin: 0;
+  padding: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+#container {
+  background:#ffffdd;
+  padding: 2em;
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Merriweather', Georgia, serif;
+  color: #2b2b2a;
+  font-size: 300%;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open+Sans', Arial, sans-serif;
+  color: #2b2b2a;
+}
+
+img {
+  display: block;
+  max-width: 50%;
+  margin: auto;
+}
+
+#drawing1 {
+  padding-top: 3rem;
+}
+
+#drawing2 {
+  padding-top: 3rem;
+}
+
+@media (max-width: 750px) {
+  img {
+    max-width: 100%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #container {
+    width: 80%;
+  }
+
+}
